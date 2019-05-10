@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>X</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0768 0.9232 34.154 0.9232 34.154 34.9997 0.0768 34.9997"></polygon>
+        <polygon id="path-3" points="0 0.8462 34.0763 0.8462 34.0763 34.9227 0 34.9227"></polygon>
+        <polygon id="path-5" points="0 0.9231 34.0763 0.9231 34.0763 34.99985 0 34.99985"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STIBITS-WEBSITE" transform="translate(-209.000000, -1778.000000)">
+            <g id="HOW-TO" transform="translate(127.000000, 1777.000000)">
+                <g id="Group-33">
+                    <g id="X" transform="translate(82.000000, 0.000000)">
+                        <g id="Group-3" transform="translate(34.000000, 34.153700)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M20.3458,0.9232 L0.0768,21.1922 L9.7048,30.8192 C15.2788,36.3932 24.3998,36.3932 29.9728,30.8192 C35.5478,25.2462 35.5478,16.1252 29.9728,10.5512 L20.3458,0.9232 Z" id="Fill-1" fill="#BBBBBC" mask="url(#mask-2)"></path>
+                        </g>
+                        <g id="Group-6" transform="translate(0.000000, 0.153700)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <path d="M24.4493,5.0267 C18.8753,-0.5473 9.7543,-0.5473 4.1803,5.0267 C-1.3937,10.6007 -1.3937,19.7217 4.1803,25.2957 L13.8083,34.9227 L34.0763,14.6547 L24.4493,5.0267 Z" id="Fill-4" fill="#BBBBBC" mask="url(#mask-4)"></path>
+                        </g>
+                        <g id="Group-9" transform="translate(0.000000, 34.153700)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="Clip-8"></g>
+                            <path d="M4.1803,10.5511 C-1.3937,16.1251 -1.3937,25.2461 4.1803,30.8201 C9.7543,36.3931 18.8753,36.3931 24.4493,30.8201 L34.0763,21.1921 L13.8083,0.9231 L4.1803,10.5511 Z" id="Fill-7" fill="#9F0C20" mask="url(#mask-6)"></path>
+                        </g>
+                        <path d="M63.9733,25.4489 C69.5473,19.8749 69.5473,10.7539 63.9733,5.1799 C58.3993,-0.3931 49.2783,-0.3931 43.7043,5.1799 L34.0773,14.8079 L54.3463,35.0769 L63.9733,25.4489 Z" id="Fill-10" fill="#9F0C20"></path>
+                        <polygon id="Fill-12" fill="#9F0C20" points="34.0768 14.8083 13.8078 35.0773 34.0768 55.3453 54.3458 35.0773"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
