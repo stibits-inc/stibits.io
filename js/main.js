@@ -290,4 +290,48 @@ $('#screenshot-carusel').owlCarousel({
     });
   });
 
+
+
 })(jQuery);
+
+// ------------------------------------------------------------------------------ //
+// Subscribe to mailchimp
+// ------------------------------------------------------------------------------ //
+
+
+function subscribe(e, target) {
+  e.preventDefault();
+  //Change this link to yours
+  var MailchimpUrl = 'https://stibits.us20.list-manage.com/subscribe/post-json?u=9b8ae2c192ba5f583b6475189&amp;id=817f6b8424';
+
+  var $this = $(target);
+  var email = $this.find('input[type=email]').val();
+  //TODO::Change alerts by inline message
+  if(email === ""){
+    alert("Email is empty");
+  } else {
+    $.ajax({
+      type: "GET",
+      dataType: 'jsonp',
+      data : { EMAIL: encodeURI(email) },
+      jsonp: 'c',
+      url: MailchimpUrl,
+      cache: false,
+      success: function (data) {
+
+        console.log(data);
+
+        if (data.result !== 'success') {
+          alert(data.msg);
+        } else {
+          alert(data.msg);
+        }
+      },
+      error: function(err) {
+        alert("Could not connect to the registration server. Please try again later.");
+      },
+
+    });
+  }
+
+}
