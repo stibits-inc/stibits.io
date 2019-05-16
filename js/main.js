@@ -290,4 +290,48 @@ $('#screenshot-carusel').owlCarousel({
     });
   });
 
+
+
 })(jQuery);
+
+// ------------------------------------------------------------------------------ //
+// Subscribe to mailchimp
+// ------------------------------------------------------------------------------ //
+
+
+function subscribe(e, target) {
+  e.preventDefault();
+  //Change this link to yours
+  var MailchimpUrl = 'https://gmail.us20.list-manage.com/subscribe/post-json?u=735e4469eb8509e4c75d76fc4&amp;id=10f4b9971e';
+
+  var $this = $(target);
+  var email = $this.find('input[type=email]').val();
+  //TODO::Change alerts by inline message
+  if(email === ""){
+    alert("Email is empty");
+  } else {
+    $.ajax({
+      type: "GET",
+      dataType: 'jsonp',
+      data : { EMAIL: encodeURI(email) },
+      jsonp: 'c',
+      url: MailchimpUrl,
+      cache: false,
+      success: function (data) {
+
+        console.log(data);
+
+        if (data.result !== 'success') {
+          alert(data.msg);
+        } else {
+          alert(data.msg);
+        }
+      },
+      error: function(err) {
+        alert("Could not connect to the registration server. Please try again later.");
+      },
+
+    });
+  }
+
+}
