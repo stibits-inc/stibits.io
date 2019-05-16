@@ -302,7 +302,7 @@ $('#screenshot-carusel').owlCarousel({
 function subscribe(e, target) {
   e.preventDefault();
   //Change this link to yours
-  var MailchimpUrl = 'https://gmail.us20.list-manage.com/subscribe/post-json?u=735e4469eb8509e4c75d76fc4&amp;id=10f4b9971e';
+  var MailchimpUrl = 'https://stibits.us20.list-manage.com/subscribe/post-json?u=9b8ae2c192ba5f583b6475189&amp;id=817f6b8424';
 
   var $this = $(target);
   var email = $this.find('input[type=email]').val();
