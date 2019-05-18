@@ -1958,6 +1958,7 @@ th {
   background: url(../img/bg2.png);
   background-size: cover;
   background-position: center;
+  overflow: hidden !important;
 }
 
 .about-section .overlay-bg2 {
@@ -2956,8 +2957,8 @@ th {
 
 .accordion>dt>a.active {
   color: #fff;
-  border-color: #691cff;
-  background: #691cff;
+  border-color: #9f0c20;
+  background: #9f0c20;
   cursor: default;
 }
 
@@ -3236,10 +3237,7 @@ th {
 /*  Contact Styles 
 /* =================================== */
 
-.contact-section {
-  background: url(../img/download-bg.png);
-  border-bottom: 100px solid #222;
-}
+
 
 .contact-section .section-title {
   padding-top: 120px;
@@ -3262,7 +3260,7 @@ th {
 
 .address-wrap .single-address-col i {
   font-size: 50px;
-  color: #691cff;
+  color: #9f0c20;
 }
 
 .address-wrap .single-address-col p {
@@ -3286,6 +3284,7 @@ th {
   border-right: none;
   background: transparent;
   padding-left: 0px;
+  font-family: Eina;
 }
 
 .contact-form-wrap .form-control:focus {
@@ -3529,7 +3528,7 @@ th {
 
 .blockchain {
   text-transform: uppercase;
-  font-family: Einalight;
+  font-family: Einabold;
   font-size: 45px !important;
   font-weight: 300;
   font-style: normal;
@@ -3756,3 +3755,59 @@ th {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+
+ .remove {
+                     visibility: hidden;
+                  }
+                  .anima {
+                    position: relative;
+                    text-transform: uppercase;
+                    font-size: 2em;
+                    letter-spacing: 4px;
+                    overflow: hidden;
+                    background: linear-gradient(90deg, #9f0c20, #fff, #9f0c20);
+                    background-repeat: no-repeat;
+                    background-size: 80%;
+                    animation: animate 3s linear infinite;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+                  }
+
+                  .d1{
+                     animation-delay: 0.1s;
+                  }
+                  .d2{
+                     animation-delay: 0.3s;
+                  }
+                  .d3{
+                     animation-delay: 0.5s;
+                  }
+                  .d4{
+                     animation-delay: 0.7s;
+                  }
+                  .d5{
+                     animation-delay: 0.9s;
+                  }
+                  .d6{
+                     animation-delay: 1s;
+                  }
+
+                  @keyframes animate {
+                    0% {
+                      background-position: -500%;
+                    }
+                    100% {
+                      background-position: 500%;
+                    }
+                  }
+                  button:focus {
+                    outline: none;
+                  }
+                  .lf {
+                    outline: none;
+                  }
+
+
+

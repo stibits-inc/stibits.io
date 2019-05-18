@@ -260,6 +260,85 @@ $('#screenshot-carusel').owlCarousel({
   $(window).stellar();
 
 
+
+
+  // animation on scroll part
+
+  var $window = $(window);
+  $window.on('scroll', function(){
+    var y = $(this).scrollTop();
+    console.log(y);
+    if(y > 470){
+      $('#sendReceive').removeClass('remove');
+      $('#sendReceive').addClass('animated fadeInUp delay-0s');
+    }
+    if(y > 1050){
+      $('#howToSend').removeClass('remove');
+      $('#howToSend').addClass('animated fadeInLeft delay-0s');
+      $('#imgHowToSend').removeClass('remove');
+      $('#imgHowToSend').addClass('animated fadeInRight delay-0s');
+    }
+    if(y > 1586){
+      $('#imgFromLeft').removeClass('remove');
+      $('#imgFromLeft').addClass('animated fadeInLeft delay-0s');
+      $('#img1FromBottom').removeClass('remove');
+      $('#img1FromBottom').addClass('animated fadeInUp delay-0s');
+      $('#img2FromBottom').removeClass('remove');
+      $('#img2FromBottom').addClass('animated fadeInUp delay-0s');
+      $('#imgFromRight').removeClass('remove');
+      $('#imgFromRight').addClass('animated fadeInRight delay-0s');
+    }
+    if(y > 2456){
+      $('#phoneBottom').removeClass('remove');
+      $('#phoneBottom').addClass('animated fadeInUp delay-0s');
+    }
+    if(y > 3019){
+      $('#text1Left').removeClass('remove');
+      $('#text1Left').addClass('animated fadeInLeft delay-0s');
+    }
+    if(y > 3805){
+      $('#textRight').removeClass('remove');
+      $('#textRight').addClass('animated fadeInRight delay-0s');
+    }
+    if(y > 4480){
+      $('#text2Left').removeClass('remove');
+      $('#text2Left').addClass('animated fadeInLeft delay-0s');
+    }
+    if(y > 6874){
+      $('#howToSend2').removeClass('remove');
+      $('#howToSend2').addClass('animated fadeInLeft delay-0s');
+      $('#imgHowToSend2').removeClass('remove');
+      $('#imgHowToSend2').addClass('animated fadeInRight delay-0s');
+    }
+    if(y > 470){
+      $('#currencies').removeClass('remove');
+      $('#currencies').addClass('animated fadeInUp delay-0s');
+    }
+    if(y > 7113){
+      $('#crn1').removeClass('remove');
+      $('#crn1').addClass('animated fadeInLeft delay-0s');
+      $('#crn2').removeClass('remove');
+      $('#crn2').addClass('animated fadeInLeft d1');
+      $('#crn3').removeClass('remove');
+      $('#crn3').addClass('animated fadeInLeft d2');
+      $('#crn4').removeClass('remove');
+      $('#crn4').addClass('animated fadeInLeft d3');
+      $('#crn5').removeClass('remove');
+      $('#crn5').addClass('animated fadeInLeft d4');
+      $('#crn6').removeClass('remove');
+      $('#crn6').addClass('animated fadeInLeft d5');
+      $('#crnImg').removeClass('remove');
+      $('#crnImg').addClass('animated fadeInRight d6');
+    }
+    
+  })
+
+
+  
+
+  //end of animation scroll section 
+
+
   // ------------------------------------------------------------------------------ //
   // Contact Form  
   // ------------------------------------------------------------------------------ //
@@ -290,9 +369,11 @@ $('#screenshot-carusel').owlCarousel({
     });
   });
 
-
-
 })(jQuery);
+
+
+
+
 
 // ------------------------------------------------------------------------------ //
 // Subscribe to mailchimp
