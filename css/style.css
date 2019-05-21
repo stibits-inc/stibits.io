@@ -431,11 +431,7 @@ th {
   background-size: cover;
 }
 
-.page-top-banner h1 {
-  color: #000;
-  font-size: 55px;
-  margin-bottom: 10px;
-}
+
 
 .page-top-banner h4 {
   color: white;
@@ -3528,14 +3524,9 @@ th {
 
 .blockchain {
   text-transform: uppercase;
-  font-family: Einabold;
+  font-family: Eina;
   font-size: 45px !important;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1px;
-  color: #ffffff !important;
 }
 
 .p {
@@ -3583,6 +3574,19 @@ th {
   margin-bottom: 1em;
 }
 
+.in {
+  width: 20em;
+  margin-right: -3em;
+  border: none;
+  font-family: Eina;
+  box-sizing: border-box;
+  padding-left: 30px;
+  height: 3em;
+  border-radius: 27px;
+  border: none;
+  margin-bottom: 1em;
+}
+
 .s {
   padding: 1.2em;
 }
@@ -3599,6 +3603,10 @@ th {
   color: #ffffff;
 }
 
+.btm{
+
+padding-bottom: 0px !important;
+}
 .Get-early-access-and {
   opacity: 0.84;
   font-family: Einalight;
