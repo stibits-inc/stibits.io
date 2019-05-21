@@ -267,7 +267,6 @@ $('#screenshot-carusel').owlCarousel({
   var $window = $(window);
   $window.on('scroll', function(){
     var y = $(this).scrollTop();
-    console.log(y);
     if(y > 470){
       $('#sendReceive').removeClass('remove');
       $('#sendReceive').addClass('animated fadeInUp delay-0s');
@@ -404,8 +403,8 @@ function subscribe(e, target) {
 
         if (data.result !== 'success') {
           alert(data.msg);
-        } else {
-          alert(data.msg);
+        } else { 
+        	$('.bd-example-modal-lg').modal('show');
         }
       },
       error: function(err) {
