@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140386762-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140386762-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
 
-  gtag('config', 'UA-140386762-1');
-</script>
+     gtag('config', 'UA-140386762-1');
+   </script>
       <!-- Mobile Specific Meta -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Author Meta -->
@@ -445,10 +445,10 @@
                   </ul>
                   <ul class="footer-menu">
                      <li>
-                        <a href="#">Terms & Conditionss</a>
+                        <a href="cookie-policy.html">Cookie Policy</a>
                      </li>
                      <li>
-                        <a href="#">Privacy Policy</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
                      </li>
                   </ul>
                </div>
@@ -473,6 +473,26 @@
       <script src="js/jquery.stellar.min.js"></script>
       <script src="js/jquery.counterup.min.js"></script>
       <script src="js/main.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+      <script>
+      window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#aa0000",
+            "text": "#ffdddd"
+          },
+          "button": {
+            "background": "#ff0000"
+          }
+        },
+        "theme": "edgeless"
+      })});
+      </script>
+
+
    </body>
    <style type="text/css">
    </style>

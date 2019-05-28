@@ -3648,6 +3648,28 @@ padding-bottom: 0px !important;
   color: rgba(0, 0, 0, 0.85);
 }
 
+.boldies{
+  font-family: Einabold;
+  font-size:15px;
+  line-height: 5px;
+  margin-bottom: 5px;
+  color: black;
+  text-transform: uppercase;
+
+}
+
+
+.sls {
+  font-family: Einalight;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
 .Ready-to-start-sendi {
   width: 460px;
   font-family: Einalight;
@@ -3695,9 +3717,21 @@ padding-bottom: 0px !important;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.titleprvc {
+  font-family: Eina;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
   color: rgba(0, 0, 0, 0.85);
   text-transform: uppercase;
   margin-top: 30px;
