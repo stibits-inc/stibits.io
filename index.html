@@ -16,6 +16,7 @@
 
      gtag('config', 'UA-140386762-1');
    </script>
+   
       <!-- Mobile Specific Meta -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Author Meta -->
@@ -92,16 +93,16 @@
                         <div class="dopenav">
                            <ul id="nav">
                               <li>
-                                 <a href="#works">HOW IT WORKS</a>
+                                 <a href="#works" onclick="gtag('event', 'click', { 'event_label': 'How it works section', 'event_category': 'internalLinks', 'non_interaction': true });">HOW IT WORKS</a>
                               </li>
                               <li>
-                                 <a href="#start">GET STARTED</a>
+                                 <a href="#start" onclick="gtag('event', 'click', { 'event_label': 'Get started section', 'event_category': 'internalLinks', 'non_interaction': true });">GET STARTED</a>
                               </li>
                               <li>
-                                 <a href="#faq">FAQ</a>
+                                 <a href="#faq" onclick="gtag('event', 'click', { 'event_label': 'FAQ section', 'event_category': 'internalLinks', 'non_interaction': true });">FAQ</a>
                               </li>
                               <li>
-                                 <a href="">CONTACT US</a>
+                                 <a href="" onclick="gtag('event', 'click', { 'event_label': 'Contact us section', 'event_category': 'internalLinks', 'non_interaction': true });">CONTACT US</a>
                               </li>
                            </ul>
                         </div>
@@ -125,8 +126,8 @@
                   <div>
                      <div class="container lp">
                        <form action="#" method="post" onsubmit="subscribe(event,this)">
-                           <input class="lf" type="email" placeholder="Email address" name="EMAIL" required>
-                           <button class="lq" type="submit">Get early access</button>
+                           <input class="lf" type="email" placeholder="Email address" id="emailAddress1" name="EMAIL" required>
+                           <button class="lq" type="submit" onclick="gtag('event', 'submit', { 'event_label': 'email : '+ document.getElementById('emailAddress1'), 'event_category': 'subscriptions', 'non_interaction': true });">Get early access</button>
                         </form>
                      </div>
                   </div>
@@ -235,7 +236,7 @@
                      <p class="Create-an-account">
                         ANDROID
                      </p>
-                     <p class="assets">With Stibits, you can move Digital Money from your account to someone else’s within minutes1,</p>
+                     <p class="assets">Start a Transfer today with the Stibits Android App Download Today</p>
                   </div>
                </div>
                <div class="col-lg-3 col-md-4 col-sm-6 single-address-col asset">
@@ -244,7 +245,7 @@
                      <p class="Create-an-account">
                         IOS
                      </p>
-                     <p class="assets">With Stibits, you can move Digital Money from your account to someone else’s within minutes1,</p>
+                     <p class="assets">Easy to Use. Simple Transfers. IOS APP for everyone Download Today</p>
                   </div>
                </div>
                <div class="col-lg-3 col-md-4 col-sm-6 single-address-col asset">
@@ -253,7 +254,7 @@
                      <p class="Create-an-account">
                         APIs
                      </p>
-                     <p class="assets">With Stibits, you can move Digital Money from your account to someone else’s within minutes1,</p>
+                     <p class="assets">Our Rest Api provides rich information for developers to integrating</p>
                   </div>
                </div>
             </div>
@@ -327,9 +328,9 @@
                <div class="col">
                   <div>
                      <div class="container lp">
-                        <form action="#" onsubmit="subscribe(event,this)">
-                           <input class="lf in" type="email" placeholder="Email address" name="EMAIL" required>
-                           <button class="lq">Sign Up for Beta</button>
+                        <form action="#" onsubmit="subscribe(event,this)" >
+                           <input class="lf in" type="email" id="emailAddress2" placeholder="Email address" name="EMAIL" required>
+                           <button class="lq" onclick="gtag('event', 'submit', { 'event_label': 'email : '+ document.getElementById('emailAddress2'), 'event_category': 'subscriptions', 'non_interaction': true });">Sign Up for Beta</button>
                         </form>
                      </div>
                   </div>
@@ -348,13 +349,13 @@
                <div class="col-lg-8">
                   <dl class="accordion">
                      <dt>
-                        <a href="#" class="active">How is Stibits different than other wallets?</a>
+                        <a href="#" class="active" onclick="gtag('event', 'internFaq', { 'event_label': 'How is Stibits different than other wallets?', 'event_category': 'faqs', 'non_interaction': true });">How is Stibits different than other wallets?</a>
                      </dt>
                      <dd>
                         “Stibits is a decentralized Blockchain based interactive dashboard that provides easy control for both sending and receiving different crypto currencies. An interactive social dashboard that creates a bridge to all existing crypto currencies enabling users to connect, consume,  create and distribute finances in a way that gives each user ultimate control over their  information, privacy, and data encryption. <br ><br >Stibits eliminates the problem of lengthy address by associating the public key with a  user’s profile so that crypto currency can be easily exchanged amongst users by simply  sending funds through email address, name, or phone number, making it easier for the  less technical users to comfortably use crypto currencies.”
                      </dd>
                      <dt>
-                        <a href="#">Will Stibits hold my crypto currency or assets?</a>
+                        <a href="#" onclick="gtag('event', 'internFaq', { 'event_label': 'Will Stibits hold my crypto currency or assets?', 'event_category': 'faqs', 'non_interaction': true });">Will Stibits hold my crypto currency or assets?</a>
                      </dt>
                      <dd>
                         “Stibits does not hold your cryptocurrency or assets. Stibits associates your keys with your profile allowing for the ability to send and receive your own funds to another Stibits user using their profile or anyone on your contact list.<br > <br >You no longer need to copy and paste long lengthy addresses. Your profile is your address. Stibits is designed to allow everyone to send and receive funds in a matter of seconds. This all occurs seamlessly, and intituivley, while at the same time remaining decentralized.”
@@ -366,12 +367,21 @@
       </section>
       <!-- End faq section -->
       <!-- Start blog section -->
-      <section class="blog-section padding-top-120" id="blog-section">
+      <section class="blog-section " id="blog-section">
          <div class="container">
-            <div class="section-title">
-               <h2 class="text-center Tools-for-third-part text-dark">Why Use Stibits®</h2>
+               <div class="section-title">
+                     <h2 class="text-center">Featured Articles</h2>
+                  </div>
+            <div id="medium-widget"></div>
+            <br><br>   
+            <div class="col-md-8 offset-md-2 text-center">
+               <a href="articles.html">
+                     <button class="btn" style="background: #950E1F; color: white;font-weight: 700">
+                           Show More Articles
+                        </button>
+               </a>
             </div>
-            <div class="text-center"> <img style="max-width: 90% !important;" src="img/video.png"></div>
+            <!-- <div class="text-center"> <img style="max-width: 90% !important;" src="img/video.png" onclick="gtag('event', 'videoPlay', { 'event_label': 'Video player on click', 'event_category': 'videoPlayClicks', 'non_interaction': true });" ></div> -->
          </div>
       </section>
       <!-- End blog section -->
@@ -429,32 +439,32 @@
                <div class="col-lg-7">
                   <ul id="social">
                      <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="#" onclick="gtag('event', 'share', { 'event_label': 'facebook share', 'event_category': 'sharings', 'non_interaction': true });">
                         <i class="fa fa-facebook"></i>
                         </a>
                      </li>
                      <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="#"  onclick="gtag('event', 'share', { 'event_label': 'twitter share', 'event_category': 'sharings', 'non_interaction': true });">
                         <i class="fa fa-twitter"></i>
                         </a>
                      </li>
                      <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="#"  onclick="gtag('event', 'share', { 'event_label': 'google plus share', 'event_category': 'sharings', 'non_interaction': true });">
                         <i class="fa fa-google-plus"></i>
                         </a>
                      </li>
                      <li>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="#"  onclick="gtag('event', 'share', { 'event_label': 'instagram share', 'event_category': 'sharings', 'non_interaction': true });">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                      </li>
                   </ul>
                   <ul class="footer-menu">
                      <li>
-                        <a href="cookie-policy.html">Cookie Policy</a>
+                        <a href="cookie-policy.html"  onclick="gtag('event', 'click', { 'event_label': 'Cookie Policy', 'event_category': 'policies', 'non_interaction': true });">Cookie Policy</a>
                      </li>
                      <li>
-                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="privacy-policy.html"  onclick="gtag('event', 'click', { 'event_label': 'Privacy Policy', 'event_category': 'policies', 'non_interaction': true });">Privacy Policy</a>
                      </li>
                   </ul>
                </div>
@@ -497,6 +507,8 @@
         "theme": "edgeless"
       })});
       </script>
+       <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+       <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@Roshii","postsPerLine":3,"limit":3,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
 
 
    </body>
