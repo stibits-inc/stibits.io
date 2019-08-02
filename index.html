@@ -361,12 +361,21 @@
       </section>
       <!-- End faq section -->
       <!-- Start blog section -->
-      <section class="blog-section padding-top-120" id="blog-section">
+      <section class="blog-section " id="blog-section">
          <div class="container">
-            <div class="section-title">
-               <h2 class="text-center Tools-for-third-part text-dark">Why Use Stibits®</h2>
+               <div class="section-title">
+                     <h2 class="text-center">Featured Articles</h2>
+                  </div>
+            <div id="medium-widget"></div>
+            <br><br>   
+            <div class="col-md-8 offset-md-2 text-center">
+               <a href="articles.html">
+                     <button class="btn" style="background: #950E1F; color: white;font-weight: 700">
+                           Show More Articles
+                        </button>
+               </a>
             </div>
-            <div class="text-center"> <img style="max-width: 90% !important;" src="img/video.png" onclick="gtag('event', 'videoPlay', { 'event_label': 'Video player on click', 'event_category': 'videoPlayClicks', 'non_interaction': true });" ></div>
+            <!-- <div class="text-center"> <img style="max-width: 90% !important;" src="img/video.png" onclick="gtag('event', 'videoPlay', { 'event_label': 'Video player on click', 'event_category': 'videoPlayClicks', 'non_interaction': true });" ></div> -->
          </div>
       </section>
       <!-- End blog section -->
@@ -492,7 +501,8 @@
         "theme": "edgeless"
       })});
       </script>
-      
+       <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+       <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@Roshii","postsPerLine":3,"limit":3,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
 
 
    </body>
