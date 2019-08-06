@@ -3711,6 +3711,11 @@ padding-bottom: 0px !important;
   text-align: center;
 }
 
+
+.hideme{
+  display: none;
+}
+
 .Create-an-account {
   font-family: Einabold;
   font-size: 18px;
