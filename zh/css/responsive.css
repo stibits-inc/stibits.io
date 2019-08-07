@@ -1,0 +1,685 @@
+/* =================================== */
+/*  Responsive Styles 
+/* =================================== */
+@media (max-width: 1024px) {
+  .banner-section {
+    min-height: 768px;
+
+  }
+
+  .banner-section .banner-left h1 {
+    font-size: 45px !important;
+  }
+
+  .banner-section2 {
+    background-size: contain !important;
+    max-height: 560px !important;
+  }
+  .banner-section2 div.fullscreen {
+    height: 500px !important;
+  }
+  .banner-section2 .banner-left h1 span {
+    font-size: 42px;
+  }
+
+  .banner-section3 {
+    background-size: contain !important;
+    max-height: 560px !important;
+  }
+  .banner-section3 div.fullscreen {
+    height: 500px !important;
+  }
+
+  .header-left h1 {
+    font-size: 35px !important;
+  }
+
+  .single-stat {
+    margin-bottom: 30px;
+  }
+
+  .about-right h1 {
+    font-size: 30px;
+  }
+  .about-right .primary-btn {
+    min-width: 130px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .single-feature h3 {
+    font-size: 22px;
+  }
+
+  .contact-wrap h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .banner-section .banner-left h1 {
+    font-size: 40px !important;
+  }
+
+  .header-left {
+    text-align: center !important;
+  }
+  .header-left h1 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .header-left h1 br {
+    display: none;
+  }
+
+  .header-left,
+  .testimonial-left {
+    margin-bottom: 50px;
+  }
+
+  .about-section .row {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  .about-section .about-left {
+    margin-bottom: 30px;
+  }
+
+  .blog-section .primary-btn {
+    margin-top: 0px;
+  }
+
+  .testimonial-left {
+    text-align: center;
+  }
+  .testimonial-left p {
+    margin: 0 auto;
+  }
+
+  .testimonial-right h2 {
+    text-align: center;
+  }
+  .testimonial-right .owl-dots {
+    text-align: center;
+  }
+
+  .price-left {
+    text-align: center;
+  }
+  .price-left p {
+    margin: 0 auto !important;
+  }
+
+  .price-right {
+    margin-top: 80px;
+  }
+
+  .skill-left {
+    margin-bottom: 30px;
+  }
+
+  .dload-btn {
+    text-align: left !important;
+    margin-top: 30px;
+  }
+  .dload-btn .primary-btn:first-child {
+    margin-left: 0px;
+  }
+
+  .about-right .primary-btn {
+    margin-bottom: 10px !important;
+  }
+
+  .single-blog {
+    margin-bottom: 30px;
+  }
+
+  .contact-wrap {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  .contact-wrap h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .contact-wrap h3,
+  .contact-wrap h4 {
+    margin-bottom: 30px;
+  }
+
+  .sidebar-wrap {
+    margin-top: 30px;
+  }
+
+  .form-cols {
+    margin-bottom: 30px;
+  }
+
+  .footer-section .footer-left {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+  .footer-section .footer-left .copyright-text {
+    text-align: center !important;
+  }
+  .footer-section #social {
+    text-align: center;
+  }
+  .footer-section #social li:first-child a {
+    margin-left: 0px;
+  }
+  .footer-section .footer-menu {
+    text-align: center;
+  }
+  .footer-section .footer-menu li:first-child {
+    padding-left: 0px;
+  }
+  .footer-section .footer-cols {
+    margin-bottom: 30px;
+  }
+  .footer-section .footer-cols:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-section {
+    min-height: 680px !important;
+  }
+
+  .banner-section2 {
+    background: #fff !important;
+  }
+
+  .banner-section3 {
+    background: #fff;
+  }
+  .banner-section3 .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner-section3 .row .banner-left p {
+    max-width: 100%;
+    color: #000;
+  }
+}
+@media (max-width: 767px) {
+  .banner-section .banner-left {
+    text-align: center !important;
+    margin-bottom: 40px;
+  }
+  .banner-section .banner-right {
+    padding-top: 40px;
+  }
+
+  .banner-section2 p {
+    color: #000;
+  }
+
+  .featured-section .section-title {
+    margin-bottom: 30px;
+  }
+
+  .single-wrap {
+    margin-bottom: 30px;
+  }
+  .single-wrap:last-child {
+    margin-bottom: 0px;
+  }
+
+  .single-blog-post .post-details h1 {
+    font-size: 25px;
+  }
+
+  .contact-section .section-title {
+    padding-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .contact-wrap h3,
+  .contact-wrap h4 {
+    text-align: center;
+  }
+
+  .contact-form-wrap {
+    padding: 30px;
+  }
+  .contact-form-wrap textarea {
+    height: 125px;
+  }
+}
+@media (max-width: 736px) {
+  .banner-section2 {
+    background-size: cover !important;
+  }
+}
+@media (max-width: 576px) {
+  .blog-section .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .price-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+  .price-right .main {
+    margin: 0px !important;
+  }
+
+  .featured-section .section-title {
+    margin-top: 30px;
+  }
+
+  .replay-comment {
+    margin-left: -80px;
+  }
+
+  .team-section .team-content {
+    width: 90.5%;
+  }
+
+  .single-team {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-cols, .copyright-text, #social {
+    text-align: center !important;
+  }
+}
+@media (max-width: 480px) {
+  .single-counter h2 {
+    font-size: 30px !important;
+  }
+  .para {
+        width: 350px !important;
+    font-family: Einalight;
+    font-size: 16px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.lf {
+    width: 21em !important;
+    margin-right: 0em !important;
+
+}
+
+
+.rdw{
+    width: 80% !important;
+
+}
+
+
+
+
+    .bits {
+        width: 461.3px;
+        height: 346px;
+    }
+    
+    @font-face {
+        font-family: Eina;
+        src: url(fonts/Eina03-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: Einalight;
+        src: url(fonts/Eina03-Light.ttf);
+    }
+    
+    @font-face {
+        font-family: Einabold;
+        src: url(fonts/Eina03-SemiBold.ttf);
+    }
+    
+    .text {
+        text-transform: uppercase;
+        font-family: Einalight;
+        font-size: 35px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.74;
+        letter-spacing: 0.9px;
+        color: rgba(0, 0, 0, 0.85);
+    }
+    
+
+.lv{text-align: center;}
+.ln{margin-bottom: 75px;}
+.lm{ margin-bottom: 20px;}
+
+.rdw{
+    width: 40%;
+    
+}
+
+    .asset{
+            background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+        margin: 1em;
+    }
+
+    .logo{
+       max-width: 70%;
+    }
+
+    .faq {
+        font-family: Eina;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #67758d;
+    }
+    .lx{
+    color: white !important;
+  }
+    .blockchain {
+        text-transform: uppercase;
+        font-family: Einalight;
+        font-size: 45px !important;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        color: #ffffff !important;
+    }
+    
+    .Our-decentralized-so {
+        font-family: Einalight;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.14;
+        letter-spacing: 0.1px;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .Get-early-access-and {
+        opacity: 0.84;
+        font-family: Einalight;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff !important;
+    }
+    
+    .assets {
+        font-family: Eina;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #67758d;
+    }
+    
+    .about-left {
+        text-align: center;
+    }
+    
+    .sl {
+        font-family: Einalight;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.85);
+    }
+    
+    .Ready-to-start-sendi {
+        width: 460px;
+        font-family: Einalight;
+        font-size: 32px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.47;
+        letter-spacing: 0.8px;
+        color: #ffffff;
+    }
+    
+    .overbg {
+        background-color: #9f0c20;
+    }
+    
+    .le {
+        font-family: Eina;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.81;
+        letter-spacing: normal;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.85);
+    }
+    
+    .space {
+        margin-top: 20px;
+    }
+    
+    .head {
+        height: 700px;
+        background-color: #9f0c20;
+    }
+    
+    .how {
+        text-align: center;
+    }
+    
+    .Create-an-account {
+        font-family: Einabold;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.85);
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .para {
+        width: 402px;
+        font-family: Einalight;
+        font-size: 19px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.53;
+        letter-spacing: 1px;
+        color: rgba(0, 0, 0, 0.85);
+        margin-bottom: 4em;
+    }
+
+  
+
+  .form-control{
+        font-family: Einalight;
+       
+    }
+  
+
+    
+    .Tools-for-third-part {
+        font-family: Einalight;
+        font-size: 35px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .holdon {
+        text-align: center;
+        font-family: Eina;
+        padding: 10px 56px;
+        font-weight: 400;
+        min-width: 160px;
+        display: inline-block;
+        color: black;
+    }
+    
+    .Ready-to-start-sendi {
+        width: 460px;
+        font-family: Eina;
+        font-size: 32px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.47;
+        letter-spacing: 0.8px;
+        color: #ffffff;
+    }
+    
+    .Rectangle {
+        background-color: #9f0c20;
+    }
+    
+    .space {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+.top {
+       margin-top: 2em; 
+    }
+
+.assets {
+    font-family: Eina;
+   
+}
+
+.le {
+    font-family: Einalight !important;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.81;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    padding-right: 2em;
+    padding-left: 2em;
+}
+  .section-gap-full {
+    padding: 35px 0;
+    
+}
+.sl {
+    font-family: Einalight;
+    font-size: 16px !important;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+    /* width: 50%; */
+}
+  .text {
+    text-transform: uppercase;
+    font-family: Einalight;
+    font-size: 26px !important;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.74;
+    letter-spacing: 0.9px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 1em;
+  }
+  .lx{
+    color: white !important;
+  }
+
+  
+
+  
+  .dload-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .dload-btn .primary-btn {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .dload-btn .primary-btn:last-child {
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 417px) {
+  .page-top-banner h1 {
+    font-size: 31px !important;
+     margin-bottom: 1em
+  }
+ .mock {
+           display:none;
+
+  }
+
+  
+
+ .page-top-banner h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 2em;
+
+}
+  .single-blog-post .post-details h1 {
+    font-size: 20px;
+  }
+
+  .social-widget ul li a {
+    margin-bottom: 10px;
+  }
+
+  .banner-section3 .banner-left h1 span, .banner-section2 .banner-left h1 span {
+    font-size: 35px;
+  }
+}
+
+

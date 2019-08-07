@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0002 0.206 34.3972 0.206 34.3972 68.9998 0.0002 68.9998"></polygon>
+        <polygon id="path-3" points="0.3972 0.206 34.794 0.206 34.794 68.9994 0.3972 68.9994"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STIBITS-WEBSITE" transform="translate(-847.000000, -1778.000000)">
+            <g id="HOW-TO" transform="translate(127.000000, 1777.000000)">
+                <g id="Group-18" transform="translate(629.000000, 0.000000)">
+                    <g id="Group-21">
+                        <g id="Group-20" transform="translate(3.000000, 0.000000)">
+                            <g id="Group-7" transform="translate(88.000000, 0.000000)">
+                                <g id="Group-3" transform="translate(0.000000, 0.794400)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Clip-2"></g>
+                                    <path d="M0.0002,34.6028 C0.0002,53.5218 15.4792,68.9998 34.3972,68.9998 L34.3972,0.2058 C15.4792,0.2058 0.0002,15.6838 0.0002,34.6028" id="Fill-1" fill="#9F0C20" mask="url(#mask-2)"></path>
+                                </g>
+                                <g id="Group-6" transform="translate(34.000000, 0.794400)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Clip-5"></g>
+                                    <path d="M0.3972,0.2054 L0.3972,68.9994 C19.3152,68.9994 34.7942,53.5214 34.7942,34.6024 C34.7942,15.6844 19.3152,0.2054 0.3972,0.2054" id="Fill-4" fill="#BBBBBC" mask="url(#mask-4)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

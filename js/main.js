@@ -2,6 +2,42 @@
   "use strict";
 
 
+  // ------------------------------------------------------------------------------ //
+  // Start User language based on navigator langage
+  // ------------------------------------------------------------------------------ //
+
+  function languageSelect(){
+    var userLang = navigator.language || navigator.userLanguage;
+  if(userLang.length>2){
+    var userLangEdge = userLang.split('-')[0];
+  }
+  if (userLang == "en" || userLangEdge == "en") {
+      return;
+  }
+  else{
+      // french language redirect
+      if(userLang == "fr" || userLangEdge == "fr"){
+        document.location.href = "fr";
+        return;
+      }
+      // Arabic language redirect
+      if(userLang == "ar" || userLangEdge == "ar"){
+        document.location.href = "ar";
+        return;
+      }
+      if(userLang == "zh" || userLangEdge == "zh"){
+        document.location.href = "zh";
+        return;
+      }
+  }
+  } 
+
+  languageSelect();
+
+  // ------------------------------------------------------------------------------ //
+  // End User language based on navigator langage 
+  // ------------------------------------------------------------------------------ //
+
   var window_width = $(window).width(),
     window_height = window.innerHeight,
     header_height = $(".default-header").height(),
