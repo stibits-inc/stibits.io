@@ -413,12 +413,11 @@ $('#screenshot-carusel').owlCarousel({
 // Subscribe to mailchimp
 // ------------------------------------------------------------------------------ //
 
-
 function subscribe(e, target) {
   e.preventDefault();
   //Change this link to yours
   var MailchimpUrl = 'https://stibits.us20.list-manage.com/subscribe/post-json?u=9b8ae2c192ba5f583b6475189&amp;id=817f6b8424';
-
+  $('#subscribeButton').addClass('bounceIn');
   var $this = $(target);
   var email = $this.find('input[type=email]').val();
   //TODO::Change alerts by inline message
@@ -439,7 +438,9 @@ function subscribe(e, target) {
         if (data.result !== 'success') {
           alert(data.msg);
         } else { 
-        	$('.bd-example-modal-lg').modal('show');
+          $('#subscribeMessage').removeClass('hideme');
+          $('#subscribeMessage').addClass('show');
+          $('#subscribeForm').addClass('hideme');
         }
       },
       error: function(err) {

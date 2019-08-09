@@ -140,10 +140,16 @@
                   <h4 class="Our-decentralized-so">Our decentralized solution allows for easy Blockchain transfers, Using your phone number, e-mail address, or name</h4>
                   <div>
                      <div class="container lp">
-                       <form action="#" method="post" onsubmit="subscribe(event,this)">
+                       <form action="#" method="post" id="subscribeForm" onsubmit="subscribe(event,this)">
                            <input class="lf" type="email" placeholder="Email address" id="emailAddress1" name="EMAIL" required>
-                           <button class="lq" type="submit" onclick="gtag('event', 'submit', { 'event_label': 'email : '+ document.getElementById('emailAddress1'), 'event_category': 'subscriptions', 'non_interaction': true });">Get early access</button>
+                           <button class="lq animated" id="subscribeButton" type="submit" onclick="gtag('event', 'submit', { 'event_label': 'email : '+ document.getElementById('emailAddress1'), 'event_category': 'subscriptions', 'non_interaction': true });">Get early access</button>
                         </form>
+                        <div class="hideme" id="subscribeMessage">
+                           <br> 
+                           <h4 style="font-weight: 700" >THANKS FOR SUBSCRIBING</h4>
+                           <br>
+                        </div>
+                        
                      </div>
                   </div>
                   <h4 class="Get-early-access-and">Send BITCOIN or even RAVENCOIN to family and friends</h4>
