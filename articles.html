@@ -114,7 +114,12 @@
           <div class="container">
               <div class="row pt-5 pb-5">
                   <div class="col-md-12">
-                        <div id="medium-widget"></div>
+                     <div id="retainable-rss-embed" 
+                     data-rss="https://medium.com/feed/@Roshii" 
+                     data-maxcols="3" 
+                     data-layout="grid" 
+                     data-poststyle="inline" 
+                     data-offset="-200">&#160;</div>
                   </div>
               </div>
           </div>
@@ -186,8 +191,6 @@
       <script src="js/jquery.counterup.min.js"></script>
       <script src="js/main.js"></script>
 
-      <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-      <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@Roshii/","postsPerLine":3,"limit":1000,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
-
+      <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
    </body>
 </html>
